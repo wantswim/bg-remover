@@ -1,6 +1,4 @@
 name = "bg-remover-api"
 main = "worker.js"
 compatibility_date = "2024-01-01"
-
-[vars]
-# Set your remove.bg API key via: wrangler secret put REMOVE_BG_API_KEY
+account_id = "b6d88b4ca291324db90a415bf31ec409"

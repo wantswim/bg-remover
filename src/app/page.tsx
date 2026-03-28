@@ -4,7 +4,7 @@ import { useState, useRef, useCallback } from 'react'
 
 type AppState = 'idle' | 'loading' | 'success' | 'error'
 
-const API_ENDPOINT = process.env.NEXT_PUBLIC_API_URL || '/api/remove-bg'
+const API_ENDPOINT = process.env.NEXT_PUBLIC_API_URL || 'https://bg-remover-api.your-subdomain.workers.dev'
 const MAX_FILE_SIZE = 10 * 1024 * 1024 // 10MB
 
 export default function Home() {
